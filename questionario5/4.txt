@@ -1,0 +1,16 @@
+Considere o tipo struct definido abaixo para as listas encadeadas neste exercício.
+
+struct celula{
+
+     int valor;
+
+     struct celula *prox;
+
+};
+
+Faça uma programa que receberá um inteiro N, seguido de N inteiros e os insira em ordem crescente em uma lista encadeada.
+Imprima a lista na tela ao final.
+
+Exemplo:
+Entrada 5 88 99 20 31 12
+Saída : 12 20 31 88 99

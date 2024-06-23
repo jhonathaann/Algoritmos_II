@@ -1,0 +1,31 @@
+Considerando o tipo struct definido abaixo,
+
+struct celula{
+
+     int valor;
+
+     struct celula *prox;
+
+};
+
+escreva uma função para imprimir os elementos de uma lista encadeada em ordem reversa .
+
+void imprime_reverso(celula *L);
+
+Entrada: Uma sequência de números inteiros. (Uma entrada negativa encerra a entrada).
+
+1 5 8 7 23 98 42 31 14 33 -1
+
+Saída: A sequência em ordem reversa.
+
+33
+14
+42
+98
+23
+7
+8
+5
+1
+
+Observação: não é permitido usar outra estrutura de armazenamento além da lista encadeada.

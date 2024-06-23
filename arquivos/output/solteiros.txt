@@ -1,0 +1,10 @@
+9
+Nome: Joao Fonseca da Cruz, Idade: 18
+Nome: Joaquina Souto, Idade: 24
+Nome: Fabricio Pereira Barreto, Idade: 50
+Nome: Perla Fontes da Cruz, Idade: 18
+Nome: Verenice Santos, Idade: 34
+Nome: Fernando Pereira Barreto, Idade: 40
+Nome: Joao Cesar, Idade: 18
+Nome: Fabricia Souza, Idade: 18
+Nome: Fernanda Souza, Idade: 18

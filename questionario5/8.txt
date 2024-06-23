@@ -1,0 +1,26 @@
+Considere o tipo struct definido abaixo para as listas encadeadas neste exercício.
+
+struct node{
+
+    int dado;
+    struct node *prox;
+
+};
+
+Faça uma função com o protótipo a seguir.
+
+ void remove_k_esimo(node *lst, int k)
+
+A função deverá remover o K-ésimo elemento de uma lista encadeada com N elementos.
+Faça um programa para testar a função.
+Entrada : Um inteiro N representando o tamanho inicial da lista, seguido de N inteiros para preencher a lista, 
+seguido de um inteiro K que representa o índicie do elemento a ser removido da lista.
+Saída: lista resultante após a remoção
+
+Exemplo :
+Entrada 3  51 22 37 2
+N = 3
+lista : 51 -> 22 -> 37 -> NULL
+K = 2
+Saída
+51  37

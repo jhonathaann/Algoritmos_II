@@ -1,0 +1,57 @@
+. O propriet´ario de uma mecˆanica deseja criar um cadastro dos carros dos clientes que atende. Vocˆe
+foi contratado para criar um cadastro simples usando listas lineares dinˆamicas. Portanto, vocˆe deve
+implementar um programa em C/C++ com as seguintes op¸c˜oes:
+1 - Cadastrar uma marca
+2 - Cadastrar um carro
+3 - Listagem de carros
+4 - Exclus˜ao de uma marca
+5 - Sair
+
+
+Utilize os tipos definidos a seguir:
+struct marca{
+int codigomarca;
+float nota;
+struct marca *prox;
+};
+
+struct carro{
+char modelo[40];
+int ano;
+int codigomarca;
+struct carro *prox;
+};
+
+• Na op¸c˜ao 1 do menu devem ser cadastrados em uma lista dinˆamica duplamente encadeada (SEM
+CABEC¸ A) os seguintes dados: c´odigo da marca (inteiro) e nota de avalia¸c˜ao da marca no
+mercado (real). Crie uma fun¸c˜ao com o prot´otipo a seguir para realizar a inser¸c˜ao de uma
+nova marca nesta lista.
+
+void inserirM(marca **, int, float);
+
+• Crie uma fun¸c˜ao com o prot´otipo a seguir, para realizar a busca de uma marca, a partir de
+um c´odigo de marca informado. A fun¸c˜ao retorna a nota da marca se o c´odigo da marca for
+encontrado e 0.0, caso contr´ario.
+
+float buscaMarca(marca **, int);
+
+• Na op¸c˜ao 2 do menu devem ser cadastrados em uma lista dinˆamica simplesmente encadeada do tipo PILHA os seguintes dados: modelo do carro, ano de fabrica¸c˜ao e marca (c´odigo).
+Um carro s´o pode ser cadastrado utilizando uma marca j´a cadastrada. Crie uma fun¸c˜ao com
+o prot´otipo a seguir para realizar a inser¸c˜ao de um novo carro nesta lista. Utilize a fun¸c˜ao
+buscaMarca para te auxiliar nesta op¸c˜ao.
+
+void inserirC(carro **, char *, int, int);
+
+• Na op¸c˜ao 3 do menu devem ser listados todos os carros cadastrados (modelo, ano e nota da
+marca). Crie uma fun¸c˜ao com o prot´otipo a seguir para realizar esta tarefa.
+
+void listagem(marca* , carro*);
+
+• Na op¸c˜ao 4 do menu deve ser exclu´ıda uma marca, ap´os fornecimento do c´odigo da marca
+pelo usu´ario. Como ´e necess´ario manter a integridade referencial, uma marca s´o pode ser
+exclu´ıda se n˜ao existir nenhum carro cadastrado para ela. Mostre uma mensagem de erro caso
+ela n˜ao possa ser exclu´ıda.
+
+void removerM(marca **, carro *, int);
+
+• Apague todas as listas encadeadas ao sair do programa.

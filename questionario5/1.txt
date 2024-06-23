@@ -1,0 +1,18 @@
+Considerando o tipo struct definido abaixo para as listas encadeadas neste exercício.
+
+struct celula{
+
+     char parenteses;
+
+     struct celula *prox;
+
+};
+
+Crie um programa que irá ler uma expressão matemática (e armazenar em uma string) e imprimirá se os parênteses estão corretos ou não.
+
+Entrada: uma expressão matemática contendo números operadores e parênteses.
+Saída: "Parênteses corretos" ou "Parênteses incorretos".
+
+Exemplo:
+Entrada: 1+2+(5*9)-5/9
+Saída: Parênteses corretos

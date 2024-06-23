@@ -1,0 +1,10 @@
+Nome: João   P1 = 8.50, P2 = 7.50    Media = 8.00
+Nome: Maria   P1 = 9.00, P2 = 8.00    Media = 8.50
+Nome: Pedro   P1 = 7.00, P2 = 6.50    Media = 6.75
+Nome: Ana   P1 = 8.80, P2 = 9.20    Media = 9.00
+Nome: Lucas   P1 = 6.50, P2 = 7.00    Media = 6.75
+Nome: Carla   P1 = 7.20, P2 = 8.50    Media = 7.85
+Nome: Mariana   P1 = 9.50, P2 = 9.80    Media = 9.65
+Nome: Luiz   P1 = 6.00, P2 = 7.80    Media = 6.90
+Nome: Fernanda   P1 = 8.30, P2 = 8.60    Media = 8.45
+Nome: Rafael   P1 = 7.80, P2 = 7.70    Media = 7.75

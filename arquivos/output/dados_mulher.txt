@@ -1,0 +1,2 @@
+Nome: Maria Edna, Sexo: F, Cor dos olhos: B, Alura: 1.65, Peso: 65.00
+Nome: Marilene Coimbra, Sexo: F, Cor dos olhos: C, Alura: 1.80, Peso: 90.00

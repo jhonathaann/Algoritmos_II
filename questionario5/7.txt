@@ -1,0 +1,21 @@
+Considerando o tipo struct definido abaixo,
+
+struct celula{
+
+     int valor;
+
+     struct celula *prox;
+
+};
+
+escreva uma função media para retornar a média dos elementos de uma lista L.
+
+double media(celula *L);
+
+Entrada: Uma sequência de números inteiros. (Uma entrada negativa encerra a leitura dos números).
+
+1 5 8 7 23 98 42 31 14 33 -1
+
+Saída: Imprime a média dos elementos da lista L. Precisão de 2 casas decimais.
+
+26.2

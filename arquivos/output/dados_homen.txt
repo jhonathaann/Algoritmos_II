@@ -1,0 +1,2 @@
+Nome: Joao Oliveira, Sexo: M, Cor dos olhos: A, Alura: 1.78, Peso: 80.00
+Nome: Josue Carlos, Sexo: M, Cor dos olhos: D, Alura: 1.60, Peso: 45.00

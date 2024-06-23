@@ -1,0 +1,7 @@
+6
+Nome: Jose F Trad, Idade: 38
+Nome: Pablo Rocha, Idade: 18
+Nome: Plinio Santana, Idade: 57
+Nome: Fernando Trad, Idade: 79
+Nome: Pablito Rios, Idade: 65
+Nome: Venancio Santana, Idade: 67

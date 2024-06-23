@@ -1,0 +1,16 @@
+15
+Solteiro 18 Joao Fonseca da Cruz
+Casado 38 Jose F Trad
+Solteiro 24 Joaquina Souto
+Casado 18 Pablo Rocha
+Solteiro 50 Fabricio Pereira Barreto
+Casado 57 Plinio Santana
+Solteiro 18 Perla Fontes da Cruz
+Casado 79 Fernando Trad
+Solteiro 34 Verenice Santos
+Casado 65 Pablito Rios
+Solteiro 40 Fernando Pereira Barreto
+Casado 67 Venancio Santana
+Solteiro 18 Joao Cesar
+Solteiro 18 Fabricia Souza
+Solteiro 18 Fernanda Souza

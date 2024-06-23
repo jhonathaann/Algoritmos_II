@@ -1,0 +1,16 @@
+Considerando o tipo struct definido abaixo para as listas encadeadas neste exercício.
+
+struct pessoa{
+   char nome[30];
+   int idade;
+   pessoa *prox;
+};
+
+
+
+Construa uma fila que irá receber os nomes e idades de pacientes de um consultório médico e imprima a sua ordem de atendimento sabendo que pacientes com mais de 70 anos de idade possuem prioridade.
+A entrada é constituída de um inteiro N que representa a quantidade de pessoas que serão adicionadas na fila, seguido de N nomes, com no máximo 30 caracteres e N idades.
+
+Exemplo: 
+Entrada: 5 Pedro 21 Paulo 77 Geise 16 Chuck 90 Sandra 60
+Saída: Paulo Chuck Pedro Geise Sandra

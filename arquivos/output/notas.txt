@@ -1,0 +1,9 @@
+Nome: pedro
+P1 = 10.00  || P2 = 10.00
+Media do(a) aluno(a) = pedro 10.00
+-------------------------
+Nome: maria
+P1 = 9.00  || P2 = 9.00
+Media do(a) aluno(a) = maria 9.00
+-------------------------
+Media da turma: 9.50
